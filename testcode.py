@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 import math
-
+from ffpyplayer.player import MediaPlayer
 
 cap = cv2.VideoCapture(0)
 
